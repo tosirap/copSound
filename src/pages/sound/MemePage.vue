@@ -1,7 +1,7 @@
 <!-- src/views/Home.vue -->
 <template>
     <div>
-      <h1>Sound Page</h1>
+      <h1>Meme Page</h1>
     </div>
   </template>
   
