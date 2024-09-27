@@ -24,9 +24,14 @@ export default {
           command: () => { this.$router.push('/sounds'); }
         },
         {
-          label: 'About',
+          label: 'Images',
           icon: 'pi pi-fw pi-info',
-          command: () => { this.$router.push('/about'); }
+          command: () => { this.$router.push('/images'); }
+        },
+        {
+          label: 'Videos',
+          icon: 'pi pi-fw pi-info',
+          command: () => { this.$router.push('/videos'); }
         }
       ]
     };
