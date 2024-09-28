@@ -21,7 +21,7 @@
     background-color: rgba(0, 0, 0, 0.6); /* Background couleur */
     padding: 5px;
     color: white;
-    height: 200px; /* Ajuste la hauteur si nécessaire */
+    height: 300px; /* Ajuste la hauteur si nécessaire */
     width: 100%; /* Prendre toute la largeur */
   }
   
