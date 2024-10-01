@@ -109,4 +109,92 @@ export const videoLinks = [
     title: "Sois digne",
     url: "https://www.youtube.com/watch?v=SnwWA1k2vE0"
   },
+  {
+    title: "La loi c'est moi",
+    url: "https://www.youtube.com/watch?v=KuFAsBGWq90"
+  },
+  {
+    title: "J'en ai rien a foutre",
+    url: "https://www.youtube.com/watch?v=rIccFruFgNo"
+  },
+  {
+    title: "Quand tu demande une augmentation",
+    url: "https://www.youtube.com/watch?v=6uUEMHmdkpM"
+  },
+  {
+    title: "Ca va péter",
+    url: "https://www.youtube.com/watch?v=tX0oyVX8KWE"
+  },
+  {
+    title: "FTG salope",
+    url: "https://www.youtube.com/watch?v=Q652jrOKNtQ"
+  },
+  {
+    title: "T'auras meme pas 50 cts",
+    url: "https://www.youtube.com/watch?v=zOKN50xTc8s"
+  },
+  {
+    title: "Ben ouais logique",
+    url: "https://www.youtube.com/watch?v=AUTNebF4fSI"
+  },
+  {
+    title: "Voix de pd",
+    url: "https://www.youtube.com/watch?v=SD7iwUPIb5k"
+  },
+  {
+    title: "What have I done?",
+    url: "https://www.youtube.com/watch?v=pJTGAtLH7Hw"
+  },
+  {
+    title: "Oh j'ai le droit de vivre ?",
+    url: "https://www.youtube.com/watch?v=_oBYZdvD3xk&list=LL"
+  },
+  {
+    title: "Ca c'est compliqué",
+    url: "https://www.youtube.com/watch?v=xdSfr3YsEQY"
+  },
+  {
+    title: "Table des zoulettes",
+    url: "https://www.youtube.com/watch?v=gM7jSLTGw1o"
+  },
+  {
+    title: "Bon bol de riz",
+    url: "https://www.youtube.com/watch?v=xUM80IrQdIg"
+  },
+  {
+    title: "Ton coiffeur",
+    url: "https://www.youtube.com/watch?v=k4QVTL0258I"
+  },
+  {
+    title: "C'est pas faux",
+    url: "https://www.youtube.com/watch?v=3w5cwBrvtf4"
+  },
+  {
+    title: "Jamais les bon coin a champignon",
+    url: "https://www.youtube.com/watch?v=2lvAI8yx49U"
+  },
+  {
+    title: "C'est de la merde",
+    url: "https://www.youtube.com/watch?v=PuCRGsC9XhU"
+  },
+  {
+    title: "Ma vie n'est qu'un mensonge",
+    url: "https://www.youtube.com/watch?v=PHrFYRpAWxY"
+  },
+  {
+    title: "Pas mon pb",
+    url: "https://www.youtube.com/watch?v=pJTGAtLH7Hw"
+  },
+  {
+    title: "Pas mon pb",
+    url: "https://www.youtube.com/watch?v=pJTGAtLH7Hw"
+  },
+  {
+    title: "Pas mon pb",
+    url: "https://www.youtube.com/watch?v=pJTGAtLH7Hw"
+  },
+  {
+    title: "Pas mon pb",
+    url: "https://www.youtube.com/watch?v=pJTGAtLH7Hw"
+  },
 ];
