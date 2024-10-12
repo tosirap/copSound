@@ -202,19 +202,11 @@ export const videoLinks = [
     url: "https://www.youtube.com/watch?v=rkm8-ITKk1c"
   },
   {
-    title: "Enculé, tapette",
-    url: "https://www.youtube.com/watch?v=rkm8-ITKk1c"
+    title: "jusqu'à quand seigneur ?",
+    url: "https://www.youtube.com/watch?v=lcfVVx3ttvA"
   },
   {
-    title: "Enculé, tapette",
-    url: "https://www.youtube.com/watch?v=rkm8-ITKk1c"
-  },
-  {
-    title: "Enculé, tapette",
-    url: "https://www.youtube.com/watch?v=rkm8-ITKk1c"
-  },
-  {
-    title: "Enculé, tapette",
-    url: "https://www.youtube.com/watch?v=rkm8-ITKk1c"
+    title: "Si tu t'abstiens du sexe, c'est parce que tu es laid...",
+    url: "https://www.youtube.com/watch?v=DYPIg6S_O9g"
   },
 ];
