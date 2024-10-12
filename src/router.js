@@ -6,7 +6,11 @@ import TerranPage from './pages/sound/TerranPage.vue';
 import MemePage from './pages/sound/MemePage.vue';
 
 import ImagePage from './pages/ImagePage.vue';
-import VideoPage from './pages/VideoPage.vue';
+
+import VideoRandom from './pages/video/VideoRandom.vue';
+import VideoYoda from './pages/video/VideoYoda.vue';
+import VideoPrecheur from './pages/video/VideoPrecheur.vue';
+
 
 const routes = [
   { path: '/', component: HomePage },
@@ -17,12 +21,14 @@ const routes = [
   { path: '/sound/meme', component: MemePage },
 
 
-    /** Images */
+  /** Images */
 
   { path: '/images', component: ImagePage },
-    /** VIDEOS */
+  /** VIDEOS */
 
-  { path: '/videos', component: VideoPage },
+  { path: '/video/random', component: VideoRandom },
+  { path: '/video/yoda', component: VideoYoda },
+  { path: '/video/precheur', component: VideoPrecheur },
 
 ];
 

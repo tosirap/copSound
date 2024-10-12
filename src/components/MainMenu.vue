@@ -48,8 +48,21 @@ export default {
         {
           label: 'Videos',
           icon: 'pi pi-fw pi-video',
-          command: () => { this.$router.push('/videos'); }
-        }
+          items: [ 
+            {
+              label: 'Random',
+              command: () => { this.$router.push('/video/random'); }
+            },
+            {
+              label: 'Yoda',
+              command: () => { this.$router.push('/video/yoda'); }
+            },
+            {
+              label: 'Precheur',
+              command: () => { this.$router.push('/video/precheur'); }
+            },
+          ]
+        },
       ]
     };
   }

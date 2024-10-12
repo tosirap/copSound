@@ -49,8 +49,8 @@
 </template>
 
 <script>
-import VideoItem from '../components/video/VideoItem.vue'; // Assure-toi d'importer le bon fichier
-import { videoLinks } from '../components/video/videoLinks.ts'; // Importe les liens vidéo
+import VideoItem from '../../components/video/VideoItem.vue'; // Assure-toi d'importer le bon fichier
+import { videoLinks } from '../../components/video/videoLinks.ts'; // Importe les liens vidéo
 import Button from 'primevue/button'; // Importation de PrimeVue Button
 
 export default {

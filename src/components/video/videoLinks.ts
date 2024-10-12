@@ -182,19 +182,39 @@ export const videoLinks = [
     url: "https://www.youtube.com/watch?v=PHrFYRpAWxY"
   },
   {
-    title: "Pas mon pb",
-    url: "https://www.youtube.com/watch?v=pJTGAtLH7Hw"
+    title: "Ca va les dingues?",
+    url: "https://www.youtube.com/watch?v=1JrknZhwmik"
   },
   {
     title: "Pas mon pb",
     url: "https://www.youtube.com/watch?v=pJTGAtLH7Hw"
   },
   {
-    title: "Pas mon pb",
-    url: "https://www.youtube.com/watch?v=pJTGAtLH7Hw"
+    title: "Qulle Humilation",
+    url: "https://www.youtube.com/watch?v=jVIMvCG_KAk"
   },
   {
-    title: "Pas mon pb",
-    url: "https://www.youtube.com/watch?v=pJTGAtLH7Hw"
+    title: "How dare you?",
+    url: "https://www.youtube.com/watch?v=-cTlc2p_8Ng"
+  },
+  {
+    title: "Enculé, tapette",
+    url: "https://www.youtube.com/watch?v=rkm8-ITKk1c"
+  },
+  {
+    title: "Enculé, tapette",
+    url: "https://www.youtube.com/watch?v=rkm8-ITKk1c"
+  },
+  {
+    title: "Enculé, tapette",
+    url: "https://www.youtube.com/watch?v=rkm8-ITKk1c"
+  },
+  {
+    title: "Enculé, tapette",
+    url: "https://www.youtube.com/watch?v=rkm8-ITKk1c"
+  },
+  {
+    title: "Enculé, tapette",
+    url: "https://www.youtube.com/watch?v=rkm8-ITKk1c"
   },
 ];
