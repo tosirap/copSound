@@ -1,8 +1,6 @@
 <template>
   <div>
     <h1>Video Page</h1>
-
-    <!-- Utilisation du composant Pagination -->
     <PaginationPage
       :currentPage="currentPage"
       :totalPages="totalPages"
@@ -19,7 +17,6 @@
       />
     </div>
 
-    <!-- Réutilisation du composant Pagination -->
     <PaginationPage
       :currentPage="currentPage"
       :totalPages="totalPages"
@@ -30,23 +27,46 @@
 </template>
 
 <script>
-import VideoItem from '../../components/video/VideoItem.vue';
+import VideoItem from '../../components/video/VideoItem.vue'; // Assure-toi d'importer le bon fichier
+import { videoLinks } from '../../components/video/videoBassemLinks.ts'; // Importe les liens vidéo
 import PaginationPage from '../../components/common/PaginationPage.vue'; // Import du composant Pagination
 import videoPaginationMixin from '../../components/common/paginationMixin.js'; // Import du mixin
-import { videoPrecheurLinks } from '../../components/video/videoPrecheurLinks.ts'; // Importe les liens vidéo
 
 export default {
   name: 'VideoList',
   components: {
     VideoItem,
-    PaginationPage, // Enregistre le composant Pagination
+    PaginationPage
   },
   mixins: [videoPaginationMixin], // Utilisation du mixin pour la pagination
   data() {
     return {
-      videos: videoPrecheurLinks,
+      videos: videoLinks,
+      currentPage: 1,
+      itemsPerPage: 9 // Nombre de vidéos à afficher par page
     };
   },
+  computed: {
+    totalPages() {
+      return Math.ceil(this.videos.length / this.itemsPerPage);
+    },
+    paginatedVideos() {
+      const start = (this.currentPage - 1) * this.itemsPerPage;
+      return this.videos.slice(start, start + this.itemsPerPage);
+    }
+  },
+  methods: {
+    nextPage() {
+      if (this.currentPage < this.totalPages) {
+        this.currentPage++;
+      }
+    },
+    prevPage() {
+      if (this.currentPage > 1) {
+        this.currentPage--;
+      }
+    }
+  }
 };
 </script>
 

@@ -10,7 +10,7 @@ import ImagePage from './pages/ImagePage.vue';
 import VideoRandom from './pages/video/VideoRandom.vue';
 import VideoYoda from './pages/video/VideoYoda.vue';
 import VideoPrecheur from './pages/video/VideoPrecheur.vue';
-
+import VideoBassem from './pages/video/VideoBassem.vue';
 
 const routes = [
   { path: '/', component: HomePage },
@@ -29,7 +29,7 @@ const routes = [
   { path: '/video/random', component: VideoRandom },
   { path: '/video/yoda', component: VideoYoda },
   { path: '/video/precheur', component: VideoPrecheur },
-
+  { path: '/video/bassem', component: VideoBassem },
 ];
 
 const router = createRouter({

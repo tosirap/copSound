@@ -61,6 +61,10 @@ export default {
               label: 'Precheur',
               command: () => { this.$router.push('/video/precheur'); }
             },
+            {
+              label: 'Bassem',
+              command: () => { this.$router.push('/video/bassem'); }
+            },
           ]
         },
       ]

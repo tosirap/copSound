@@ -1,23 +1,12 @@
 <template>
   <div>
     <h1>Video Page</h1>
-    <div class="pagination">
-      <Button
-        label="Précédent"
-        @click="prevPage"
-        :disabled="currentPage === 1"
-        icon="pi pi-chevron-left"
-        class="p-button-secondary"
-      />
-      <span class="pageNumber">Page {{ currentPage }} sur {{ totalPages }}</span>
-      <Button
-        label="Suivant"
-        @click="nextPage"
-        :disabled="currentPage === totalPages"
-        icon="pi pi-chevron-right"
-        class="p-button-secondary"
-      />
-    </div>
+    <PaginationPage
+      :currentPage="currentPage"
+      :totalPages="totalPages"
+      @prev="prevPage"
+      @next="nextPage"
+    />
 
     <div class="video-list">
       <VideoItem
@@ -28,37 +17,28 @@
       />
     </div>
 
-    <div class="pagination">
-      <Button
-        label="Précédent"
-        @click="prevPage"
-        :disabled="currentPage === 1"
-        icon="pi pi-chevron-left"
-        class="p-button-secondary"
-      />
-      <span class="pageNumber">Page {{ currentPage }} sur {{ totalPages }}</span>
-      <Button
-        label="Suivant"
-        @click="nextPage"
-        :disabled="currentPage === totalPages"
-        icon="pi pi-chevron-right"
-        class="p-button-secondary"
-      />
-    </div>
+    <PaginationPage
+      :currentPage="currentPage"
+      :totalPages="totalPages"
+      @prev="prevPage"
+      @next="nextPage"
+    />
   </div>
 </template>
 
 <script>
 import VideoItem from '../../components/video/VideoItem.vue'; // Assure-toi d'importer le bon fichier
 import { videoLinks } from '../../components/video/videoLinks.ts'; // Importe les liens vidéo
-import Button from 'primevue/button'; // Importation de PrimeVue Button
+import PaginationPage from '../../components/common/PaginationPage.vue'; // Import du composant Pagination
+import videoPaginationMixin from '../../components/common/paginationMixin.js'; // Import du mixin
 
 export default {
   name: 'VideoList',
   components: {
     VideoItem,
-    Button // Enregistre le composant Button
+    PaginationPage
   },
+  mixins: [videoPaginationMixin], // Utilisation du mixin pour la pagination
   data() {
     return {
       videos: videoLinks,
@@ -97,13 +77,4 @@ export default {
   gap: 20px;
 }
 
-.pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-}
-.pageNumber{
-  padding: 20px;
-}
 </style>
