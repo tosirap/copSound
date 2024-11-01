@@ -1,5 +1,37 @@
 export const videoLinks = [
   {
+    title: "You have no power here!",
+    url: "https://www.youtube.com/watch?v=fBGWtVOKTkM"
+  },
+  {
+    title: "Rap battle parody oh",
+    url: "https://www.youtube.com/watch?v=rJcZguJ9-7U"
+  },
+  {
+    title: "Non merci on a déjà baisé",
+    url: "https://www.youtube.com/watch?v=kMhK9o8D0T8"
+  },
+  {
+    title: "You were the chosen one!",
+    url: "https://www.youtube.com/watch?v=QiZNSzWIaLo"
+  },
+  {
+    title: "SISSOKO IL EST PARTI PAYET FRAPPE DU PIED GAUCHE",
+    url: "https://www.youtube.com/watch?v=G0V1j-6gzoQ"
+  },
+  {
+    title: "Conan le Barbare",
+    url: "https://www.youtube.com/watch?v=z0Gd7nQY9ww"
+  },
+  {
+    title: "C'est la police française",
+    url: "https://www.youtube.com/watch?v=Wkni0zRYh0o"
+  },
+  {
+    title: "INTRO PIRATAGE",
+    url: "https://www.youtube.com/watch?v=ZO4UME-Lbeo"
+  },
+  {
     title: "On se croirait chez les bolchevics ici !",
     url: "https://www.youtube.com/watch?v=lVzLWNDWNrw"
   },
