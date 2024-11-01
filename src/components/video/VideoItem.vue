@@ -1,6 +1,6 @@
 <template>
   <div class="video-item">
-    <h2>{{ title }}</h2>
+    <h2 class="video-title">{{ title }}</h2>
     <iframe
       :src="videoUrl"
       frameborder="0"
@@ -37,5 +37,8 @@ export default {
 <style scoped>
 .video-item {
   margin-bottom: 20px;
+}
+.video-title{
+  max-width: 560px;
 }
 </style>

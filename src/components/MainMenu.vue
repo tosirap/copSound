@@ -67,6 +67,11 @@ export default {
             },
           ]
         },
+        {
+          label: 'Mystery box',
+          icon: 'pi pi-fw pi-question-circle',
+          command: () => { this.$router.push('/mystery-box'); }
+        },
       ]
     };
   }

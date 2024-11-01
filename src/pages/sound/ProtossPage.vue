@@ -1,7 +1,7 @@
 <!-- src/views/Home.vue -->
 <template>
     <div>
-      <h1>Protoss Page</h1>
+      <h1 class="page-title">Protoss Page</h1>
     </div>
   </template>
   

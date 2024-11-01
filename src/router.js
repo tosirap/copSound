@@ -12,6 +12,8 @@ import VideoYoda from './pages/video/VideoYoda.vue';
 import VideoPrecheur from './pages/video/VideoPrecheur.vue';
 import VideoBassem from './pages/video/VideoBassem.vue';
 
+import MysteryBox from './pages/mysteryBox/MysteryBox.vue';
+
 const routes = [
   { path: '/', component: HomePage },
   /** SOUND */
@@ -30,6 +32,10 @@ const routes = [
   { path: '/video/yoda', component: VideoYoda },
   { path: '/video/precheur', component: VideoPrecheur },
   { path: '/video/bassem', component: VideoBassem },
+
+  /** Mystery box */
+  { path: '/mystery-box', component: MysteryBox },
+
 ];
 
 const router = createRouter({

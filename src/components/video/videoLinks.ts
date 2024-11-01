@@ -1,5 +1,73 @@
 export const videoLinks = [
   {
+    title: "On se croirait chez les bolchevics ici !",
+    url: "https://www.youtube.com/watch?v=lVzLWNDWNrw"
+  },
+  {
+    title: "Qui t'as envoyé ?",
+    url: "https://www.youtube.com/watch?v=k4QVTL0258I"
+  },
+  {
+    title: "Mais jamais les bon coin a champignon",
+    url: "https://www.youtube.com/watch?v=2lvAI8yx49U"
+  },
+  {
+    title: "C'est de la merde",
+    url: "https://www.youtube.com/watch?v=PuCRGsC9XhU"
+  },
+  {
+    title: "And his name is John Cena",
+    url: "https://www.youtube.com/watch?v=im9JuD-5lc0"
+  },
+  {
+    title: "Papacito VS Quotidien ",
+    url: "https://www.youtube.com/watch?v=HalbPkjnWZ8"
+  },
+  {
+    title: "Jeanne au secours !!",
+    url: "https://www.youtube.com/watch?v=v1mxMtr8Mws"
+  },
+  {
+    title: "Rohff table des zoulettes",
+    url: "https://www.youtube.com/watch?v=gM7jSLTGw1o"
+  },
+  {
+    title: "Ça c'est compliqué, que dire ?",
+    url: "https://www.youtube.com/watch?v=xdSfr3YsEQY"
+  },
+  {
+    title: "Yoda - Tu auras peur !",
+    url: "https://www.youtube.com/watch?v=k7txnTj_NoA"
+  },
+  {
+    title: "Frappe moi je t'empoisonne",
+    url: "https://www.youtube.com/watch?v=_Ljs7l8TAko"
+  },
+  {
+    title: "T'aura pas mon argent t'auras même pas 50 centimese",
+    url: "https://www.youtube.com/watch?v=zOKN50xTc8s"
+  },
+  {
+    title: "Sois digne",
+    url: "https://www.youtube.com/watch?v=SnwWA1k2vE0"
+  },
+  {
+    title: "Bah ouais logique",
+    url: "https://www.youtube.com/watch?v=AUTNebF4fSI"
+  },
+  {
+    title: "Ferme ta gueule salope",
+    url: "https://www.youtube.com/watch?v=Q652jrOKNtQ"
+  },
+  {
+    title: "Booba partir en couilles sérieusement",
+    url: "https://www.youtube.com/watch?v=dDWmI156ROo"
+  },
+  {
+    title: "J'ai appris ça sur internet",
+    url: "https://www.youtube.com/watch?v=tFQXn6YwM00&"
+  },
+  {
     title: "A écouter pendant que tu remplis ta feuille d'impôt",
     url: "https://www.youtube.com/watch?v=r8TxKhqY2vM"
   },
@@ -209,4 +277,5 @@ export const videoLinks = [
     title: "Si tu t'abstiens du sexe, c'est parce que tu es laid...",
     url: "https://www.youtube.com/watch?v=DYPIg6S_O9g"
   },
+
 ];

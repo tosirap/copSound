@@ -15,4 +15,8 @@ export const videoPrecheurLinks = [
         title: "CHAQUE FOIS QUE LA FEMME N'EST PAS A LA CUISINE IL Y A DESORDRE",
         url: "https://www.youtube.com/watch?v=kcsbfWdWmcU"
     },
+    {
+        title: "CHAQUE FOIS QUE LA FEMME N'EST PAS A LA CUISINE IL Y A DESORDRE",
+        url: "https://www.youtube.com/watch?v=kcsbfWdWmcU"
+    },
 ];

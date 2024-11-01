@@ -1,7 +1,7 @@
 <!-- src/views/Home.vue -->
 <template>
     <div>
-      <h1>Zerg Page</h1>
+      <h1 class="page-title">Zerg Page</h1>
     </div>
   </template>
   

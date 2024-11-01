@@ -1,0 +1,10 @@
+/* main.css */
+.page-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    /* Choisis la couleur qui convient */
+    text-align: center;
+    margin-top: 20px;
+    font-family: system-ui;
+}

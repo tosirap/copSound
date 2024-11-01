@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Video Page</h1>
+    <h1 class="page-title">Precheur</h1>
 
     <!-- Utilisation du composant Pagination -->
     <PaginationPage

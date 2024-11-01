@@ -1,6 +1,6 @@
 <template>
   <div class="home-page" @click="playAudio">
-    <h1>Welcome to the Cop Sound</h1>
+    <h1 class="page-title">Welcome to the Cop Sound</h1>
     <audio ref="audioElement" loop>
       <source src="@/assets/homepage/hell-divers-2-music.mp3" type="audio/mpeg">
       Your browser does not support the audio element.

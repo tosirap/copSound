@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1>Video Page</h1>
+      <h1 class="page-title">Maître Yoda</h1>
       <PaginationPage
         :currentPage="currentPage"
         :totalPages="totalPages"

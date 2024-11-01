@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Video Page</h1>
+    <h1 class="page-title">Bassem 69200</h1>
     <PaginationPage
       :currentPage="currentPage"
       :totalPages="totalPages"
