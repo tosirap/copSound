@@ -1,41 +1,41 @@
 export const mysteryBox = {
-    "Willy": {
+    "willy": {
         title: "Willy",
         url: "https://www.youtube.com/watch?v=GAHfZNPoLW0"
     },
-    "SPF": {
+    "spf": {
         title: "SPF",
         url: "https://www.youtube.com/watch?v=AZO7Vre3T2c"
     },
-    "Zalesky": {
+    "zalesky": {
         title: "Zalesky",
         url: "https://www.youtube.com/watch?v=KzMiVeh0SPg"
     },
-    "New Year": {
+    "new year": {
         title: "New Year",
         url: "https://www.youtube.com/watch?v=v9OeF3HhSCo"
     },
-    "Mashallah": {
+    "mashallah": {
         title: "Mashallah",
         url: "https://www.youtube.com/watch?v=WvhEr2AhLUY"
     },
-    "Seb": {
+    "seb": {
         title: "Seb",
         url: "https://www.youtube.com/watch?v=IoG1677WjLI"
     },
-    "PUMP IT": {
+    "pump it": {
         title: "PUMP IT",
         url: "https://www.youtube.com/watch?v=k001JX-D-dA"
     },
-    "Bagnolet": {
+    "bagnolet": {
         title: "Bagnolet",
         url: "https://www.youtube.com/watch?v=sC_SZToF82U"
     },
-    "Rosny": {
+    "rosny": {
         title: "Rosny",
         url: "https://www.youtube.com/watch?v=KuFAsBGWq90"
     },
-    "Stan": {
+    "stan": {
         title: "Stan",
         url: "https://www.youtube.com/watch?v=Z54FdjHqPgM"
     },
