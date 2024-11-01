@@ -1,5 +1,21 @@
 export const videoLinks = [
   {
+    title: "Yugi-oh",
+    url: "https://www.youtube.com/watch?v=om5yYcg1lT4"
+  },
+  {
+    title: "Big mac",
+    url: "https://www.youtube.com/watch?v=eZRpxO_Ywf8"
+  },
+  {
+    title: "Mais j'veux faire l'amour !!!!!",
+    url: "https://www.youtube.com/watch?v=ENMx8r9kDAk"
+  },
+  {
+    title: "Vous voulez que je sorte et qu’on se tape?",
+    url: "https://www.youtube.com/watch?v=QC04QmdVrto"
+  },
+  {
     title: "You have no power here!",
     url: "https://www.youtube.com/watch?v=fBGWtVOKTkM"
   },
@@ -50,10 +66,6 @@ export const videoLinks = [
   {
     title: "And his name is John Cena",
     url: "https://www.youtube.com/watch?v=im9JuD-5lc0"
-  },
-  {
-    title: "Papacito VS Quotidien ",
-    url: "https://www.youtube.com/watch?v=HalbPkjnWZ8"
   },
   {
     title: "Jeanne au secours !!",
