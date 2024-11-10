@@ -33,7 +33,7 @@ export default [
     { name: 'Desordre', category: 'Predicateur', path: '/audio/Surprise/Predicateur_Desordre.mp3' },
     { name: 'FachezVous', category: 'Predicateur', path: '/audio/Surprise/Predicateur_FachezVous.mp3' },
     { name: 'Galeres', category: 'Predicateur', path: '/audio/Surprise/Predicateur_Galeres.mp3' },
-    { name: 'IIMent', category: 'Predicateur', path: '/audio/Surprise/Predicateur_IIMent.mp3' },
+    { name: 'IlMent', category: 'Predicateur', path: '/audio/Surprise/Predicateur_IlMent.mp3' },
     { name: 'PlaceCuisine', category: 'Predicateur', path: '/audio/Surprise/Predicateur_PlaceCuisine.mp3' },
 
     // Catégorie: PasMaGuerre

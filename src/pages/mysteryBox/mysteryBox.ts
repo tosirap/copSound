@@ -1,7 +1,11 @@
 export const mysteryBox = {
+    "daniel": {
+        title: "Daniel",
+        url: "https://www.youtube.com/watch?v=GAHfZNPoLW0"
+    },
     "willy": {
         title: "Willy",
-        url: "https://www.youtube.com/watch?v=GAHfZNPoLW0"
+        url: "https://www.youtube.com/watch?v=77ioSIoHL9E"
     },
     "spf": {
         title: "SPF",
@@ -38,6 +42,34 @@ export const mysteryBox = {
     "stan": {
         title: "Stan",
         url: "https://www.youtube.com/watch?v=Z54FdjHqPgM"
+    },
+    "shiba": {
+        title: "Shiba",
+        url: "https://www.youtube.com/watch?v=1VlD5Hdtnm4"
+    },
+    "monk": {
+        title: "Monk",
+        url: "https://www.youtube.com/watch?v=PRIIRWOATVQ"
+    },
+    "hello kitty": {
+        title: "Hello Kitty",
+        url: "https://www.youtube.com/watch?v=QZsmf5PeHCQ"
+    },
+    "julia": {
+        title: "Julia",
+        url: "https://www.youtube.com/watch?v=Mrp2bDe-FyM"
+    },
+    "yoan": {
+        title: "Yoan",
+        url: "https://www.youtube.com/watch?v=pENXxrUryNA"
+    },
+    "copex": {
+        title: "Copexaputabellafolle la grosse keh",
+        url: "https://www.youtube.com/watch?v=_rDwgYFGaWk"
+    },
+    "thomas": {
+        title: "Thomas",
+        url: "https://www.youtube.com/watch?v=dGZYsDysoEQ"
     },
     // Ajoute d'autres associations mot-clé => vidéo ici
 };

@@ -1,5 +1,33 @@
 export const videoLinks = [
   {
+    title: "Les 2 boules",
+    url: "https://www.youtube.com/watch?v=PML1o8LSx5Y"
+  },
+  {
+    title: "Oh Merde oh c'est con ça",
+    url: "https://www.youtube.com/watch?v=57tfWBtl5sg"
+  },
+  {
+    title: "Couscous",
+    url: "https://www.youtube.com/watch?v=5UnM_hkcO0g"
+  },
+  {
+    title: "Les 2 boules",
+    url: "https://www.youtube.com/watch?v=PML1o8LSx5Y"
+  },
+  {
+    title: "Dents de requin de madagascar",
+    url: "https://www.youtube.com/watch?v=KhOYFFw1whk"
+  },
+  {
+    title: "Dis les termes!",
+    url: "https://www.youtube.com/watch?v=q62tm-NZpKc"
+  },
+  {
+    title: "Concentre toi !",
+    url: "https://www.youtube.com/watch?v=Dd1-mzKs4AY"
+  },
+  {
     title: "Yugi-oh",
     url: "https://www.youtube.com/watch?v=om5yYcg1lT4"
   },
