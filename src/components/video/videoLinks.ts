@@ -1,5 +1,13 @@
 export const videoLinks = [
   {
+    title: "Cherry lick",
+    url: "https://www.youtube.com/watch?v=XtD0E_OPAww"
+  },
+  {
+    title: "Psartek le boule",
+    url: "https://www.youtube.com/watch?v=L43oaSKc028"
+  },
+  {
     title: "Les 2 boules",
     url: "https://www.youtube.com/watch?v=PML1o8LSx5Y"
   },

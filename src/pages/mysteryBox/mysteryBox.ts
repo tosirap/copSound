@@ -69,7 +69,14 @@ export const mysteryBox = {
     },
     "thomas": {
         title: "Thomas",
-        url: "https://www.youtube.com/watch?v=dGZYsDysoEQ"
+        url: "https://www.youtube.com/watch?v=4th09-b8KP4"
     },
-    // Ajoute d'autres associations mot-clé => vidéo ici
+    "dylan": {
+        title: "Dylan",
+        url: "https://www.youtube.com/watch?v=JXKZrq66IN8"
+    },
+    "thibaud": {
+        title: "Thibaud pédalo",
+        url: "https://www.youtube.com/watch?v=CIsVGDq8nd8"
+    },
 };
