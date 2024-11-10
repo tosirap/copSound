@@ -1,17 +1,15 @@
-<!-- src/views/Home.vue -->
 <template>
-    <div>
-      <h1 class="page-title">Meme Page</h1>
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'SoundPage'
-  };
-  </script>
-  
-  <style>
-  /* Styles pour la page d'accueil */
-  </style>
-  
+  <div>
+    <h1 class="page-title">Meme</h1>
+    <AudioList faction="Surpise" />
+  </div>
+</template>
+
+<script>
+import AudioList from '@/components/audio/AudioList.vue';
+export default {
+  components: {
+    AudioList
+  }
+};
+</script>
